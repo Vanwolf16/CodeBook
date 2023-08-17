@@ -1,2 +1,4 @@
 export {HomePage} from "./Home/HomePage";
-export { ProductList } from "./Products/ProductsList";
+export { ProductsList } from "./Products/ProductsList";
+export { ProductDetail } from "./ProductDetail";
+

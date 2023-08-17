@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { ProductCard } from "../../components/Elements/ProductCard";
+import  { ProductCard } from "../../components";
 import { FilterBar } from "./components/FilterBar";
 
 
-export const ProductsList = () => {
+export  const ProductsList = () => {
   const [show, setShow] = useState(false);
 
   //Products
@@ -43,5 +43,7 @@ export const ProductsList = () => {
     </main>
   )
 }
+
+
 
 
