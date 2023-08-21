@@ -1,6 +1,10 @@
 import React, { useContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
+
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import './index.css';
 import App from './App';
 import { ScrollToTop } from './components';
@@ -14,6 +18,7 @@ root.render(
     <Router>
       <FilterProvider>
       <ScrollToTop />
+        <ToastContainer />
         <App />
       </FilterProvider>
     
