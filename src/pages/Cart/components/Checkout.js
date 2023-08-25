@@ -13,8 +13,7 @@ export const Checkout = ({setCheckout}) => {
     const cbid = JSON.parse(sessionStorage.getItem("cbid"));
 
     useEffect(() => {
-        
-
+    
         async function getUser(){
             const response = await fetch(`http://localhost:8000/600/users/${cbid}`, {
                 method: "GET",
